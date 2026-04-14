@@ -1,0 +1,64 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-inter: system-ui, -apple-system, sans-serif;
+    --font-sans: var(--font-inter);
+    --color-primary-50: #f0fdfa;
+    --color-primary-100: #ccfbf1;
+    --color-primary-500: #14b8a6;
+    --color-primary-600: #0d9488;
+    --color-primary-900: #134e4a;
+    
+    --color-bg-dark: #0f172a;
+    --color-bg-light: #f8fafc;
+}
+
+@layer components {
+    .glass-panel {
+        background-color: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+        border-radius: 1rem;
+    }
+    .glass-input {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(226, 232, 240, 0.8);
+        border-radius: 0.75rem;
+        padding: 0.75rem 1rem;
+        width: 100%;
+        transition: all 0.3s ease;
+        outline: none;
+    }
+    .glass-input:focus {
+        background-color: #ffffff;
+        border-color: var(--color-primary-500);
+        box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.2);
+    }
+    .btn-primary {
+        background-color: var(--color-primary-600);
+        color: white;
+        font-weight: 600;
+        padding: 0.75rem 1.5rem;
+        border-radius: 0.75rem;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px -1px rgba(20, 184, 166, 0.3);
+    }
+    .btn-primary:hover {
+        background-color: var(--color-primary-500);
+        transform: translateY(-2px);
+        box-shadow: 0 10px 15px -3px rgba(20, 184, 166, 0.4);
+    }
+}
+
+body {
+    background-color: var(--color-bg-light);
+    color: #1e293b;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+}

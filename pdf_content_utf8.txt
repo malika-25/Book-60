@@ -1,0 +1,139 @@
+ 
+ 
+P4-25/26                                               Hak Cipta pada Kemendasmen SPK-1/4 
+ 
+ 
+UJI KOMPETENSI KEAHLIAN 
+TAHUN PELAJARAN 2025/2026 
+ 
+SOAL PRAKTIK KEJURUAN 
+ 
+Satuan Pendidikan  : Sekolah Menengah Kejuruan 
+Konsentrasi Keahlian : Rekayasa Perangkat Lunak 
+Kode   : KM25.4.1.1 
+Alokasi Waktu  : 9 jam 
+Bentuk Soal  : Penugasan Perorangan 
+Judul Tugas   : Pengembangan aplikasi Peminjaman Buku 
+ 
+ 
+I.  PETUNJUK UMUM 
+1. Periksalah dengan teliti dokumen soal ujian praktik, yang terdiri dari 4 halaman 
+2. Periksalah peralatan dan bahan yang dibutuhkan 
+3. Gunakan peralatan utama dan peralatan keselamatan kerja yang telah disediakan 
+4. Gunakan peralatan sesuai dengan SOP (Standard Operating Procedure) 
+5. Bekerjalah dengan memperhatikan petunjuk Pembimbing/Penguji 
+  
+II. DAFTAR PERALATAN 
+No. Nama 
+Alat  dan Bahan 
+Spesifikasi Minimal Jumlah Keterangan 
+1 2 3 4 5 
+ Alat    
+1. PC Client/Laptop Processor: 2.0 Ghz / Setara 
+RAM: 4 GB Harddisk: 250 GB 
+NIC 10/1000 Mbps,  
+Monitor 14” 
+Keyboard 
+Mouse 
+1 Set  
+ 
+ 
+ 
+ 
+ 
+ Komponen    
+2. Koneksi Internet  1 Mbps 1 Line  
+3 Sistem Operasi Operating System 1 Set  
+4 Text Editor / Tools pemograman Sesuai Kebutuhan 1 Set  
+5 Database Sesuai Kebutuhan 1 Set  
+ 
+ 
+ 
+Paket  
+4 
+ 
+DOKUMEN NEGARA 
+  
+ 
+P4-25/26                                               Hak Cipta pada Kemendasmen SPK-2/4 
+ 
+No. Nama 
+Alat  dan Bahan 
+Spesifikasi Minimal Jumlah Keterangan 
+1 2 3 4 5 
+ Alat    
+6 Debugging Tools Sesuai Kebutuhan 1 Set  
+7 Aplikasi Pengolah Kata Sesuai Kebutuhan 1 Unit   
+ 
+ 
+III. SOAL/TUGAS 
+Judul Tugas :  Pengembangan aplikasi Peminjaman Buku 
+Tugas Praktik : 
+Anda sebagai seorang calon programmer diminta untuk membuat aplikasi Perpustakaan Sekolah 
+Digital berbasis web yang bertujuan untuk memudahkan siswa dan admin perpustakaan dalam 
+peminjaman dan pendataan buku. Aplikasi ini dapat dipergunakan oleh seluruh warga sekolah serta 
+seluruh siswa/i sekolah tersebut. Aplikasi ini dibuat untuk menjawab tantangan digitalisasi tentang 
+peminjaman buku secara digital. Aplikasi ini berjalan tidak menggunakan internet, h anya berjalan 
+dengan koneksi lokal menggunakan Localhost. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+P4-25/26                                               Hak Cipta pada Kemendasmen SPK-3/4 
+ 
+Gambar Kerja 
+ 
+ Langkah Kerja 
+1. Lakukan pemeriksaan komputer yang anda gunakan apakah semua aplikasi yang 
+anda butuhkan sudah tersedia. 
+2. Buatlah aplikasi sesuai flowmap sistem usulan yang disediakan 
+3. Rancang tampilan User Interface dari aplikasi yang akan dibuat 
+ 
+ 
+P4-25/26                                               Hak Cipta pada Kemendasmen SPK-4/4 
+ 
+4. Hubungkan aplikasi dengan basis data 
+5. Lakukan Debugging 
+6. Buatlah Dokumentasi dan manual singkat menggunakan aplikasi pengolah kata 
+ 
+Dibuktikan dengan pengumpulan 
+1. Folder proyek aplikasi (kode program lengkap) 
+2. Database dengan ekstensi .sql 
+3. Dokumentasi : 
+a. ERD  
+b. Deskripsi program  
+c. Dokumentasi fungsi/prosedur 
+d. Debugging 
+4. Laporan evaluasi singkat 
+ 
+Hasil yang diharapkan 
+Hasil dari pembuatan program Pengembangan Aplikasi Peminjaman Buku ini adalah : 
+Admin User 
+Dapat Melakukan Login Dapat Melakukan Login 
+Melakukan Pemilihan Menu Melakukan Peminjaman Buku 
+Melakukan CRUD Melakukan Pengembalian Buku 
+ 
+Fitur User Admin 
+Daftar V V 
+Login V V 
+Pemilihan Menu V V 
+Melakukan CRUD Transaksi V V 
+Melakukan CRUD Data Buku X V 
+Melakukan CRUD Kelola Anggota X V 
+Pencarian untuk Kondisi Tertentu V V 
+ 
+ 
+“SELAMAT & SUKSES” 
+ 
