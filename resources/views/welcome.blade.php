@@ -19,7 +19,7 @@
         </h1>
 
         <p class="text-xl text-slate-600 font-medium max-w-2xl mb-12 leading-relaxed">
-            BooKeep adalah platform perpustakaan digital sekolah modern yang dirancang khusus untuk mewujudkan ekosistem
+            BooKeep adalah platform perpustakaan digital sekolah modern yang dirancang khusus untuk menyimpan buku dan mewujudkan ekosistem
             literasi yang interaktif.
         </p>
 

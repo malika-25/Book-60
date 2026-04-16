@@ -7,7 +7,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-gray-50 flex flex-col min-h-screen relative">
-    
+
     <!-- Animated Background Blobs -->
     <div class="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
         <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] rounded-full bg-primary-100/50 blur-[100px]"></div>
@@ -62,19 +62,19 @@
                 <button @click="show = false" class="text-teal-500 hover:text-teal-700">&times;</button>
             </div>
         @endif
-        
+
         @if(session('error'))
             <div class="mb-6 p-4 rounded-xl bg-red-50 border border-red-200 text-red-800 shadow-sm font-medium">
                 {{ session('error') }}
             </div>
         @endif
-        
+
         @yield('content')
     </main>
-    
+
     <!-- Footer -->
     <footer class="mt-auto py-8 text-center text-slate-500 text-sm font-medium border-t border-slate-200/60 bg-white/30 backdrop-blur-sm">
-        <p>&copy; {{ date('Y') }} <span class="text-primary-600">BooKeep</span> - Aplikasi Peminjaman Buku Digital.</p>
+        <p>&copy; {{ date('Y') }} <span class="text-primary-600">BooKeep</span> - By Malik Akhdan🧑‍💻.</p>
     </footer>
 </body>
 </html>
