@@ -3,17 +3,29 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Attributes\Fillable;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
-#[Fillable(['title', 'author', 'publisher', 'isbn', 'published_year', 'stock', 'description', 'cover_image', 'category_id'])]
 class Book extends Model
 {
-    public function category()
+    protected $fillable = [
+        'title',
+        'author',
+        'publisher',
+        'isbn',
+        'published_year',
+        'stock',
+        'description',
+        'cover_image',
+        'category_id'
+    ];
+
+    public function category(): BelongsTo
     {
         return $this->belongsTo(Category::class);
     }
 
-    public function transactions()
+    public function transactions(): HasMany
     {
         return $this->hasMany(Transaction::class);
     }
